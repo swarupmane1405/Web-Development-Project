@@ -1,0 +1,86 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+
+  font-size: 17px;
+  text-align: justify;
+  text-shadow: 4px 2px 4px #000;
+
+  background: url("images/3.jpg");
+
+
+background-size: cover;
+  justify-content: center;
+
+
+}
+
+section {
+  padding: 0 100px;
+color: #ffffff;
+height:130vh;
+display: flex;
+align-items: center;
+flex-direction: row-reverse;
+}
+
+.box1
+{
+position: relative;
+max-width: 620px;
+padding: 40px;
+background: rgba(255, 2555, 255, 0.2);
+box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+
+}
+.box1 h2{
+  font-family: 'Nova Round', cursive;
+    text-align: center;
+  color:#FFFFFF;
+  font-size: 50px;
+  float: center;
+  background-position: center;
+
+
+}
+section2 {  background: url("images/3.jpg");
+
+background-size: cover;
+  justify-content: center;
+  padding: 0 50px;
+color: #ffffff;
+height:130vh;
+display: flex;
+align-items: center;
+
+
+}
+.box2
+{
+position: relative;
+max-width: 620px;
+padding: 40px;
+background: rgba(255, 2555, 255, 0.2);
+box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+
+}
+.box2 h2{
+  font-family: 'Nova Round', cursive;
+    text-align: center;
+  color:#FFFFFF;
+  font-size: 40px;
+  float: center;
+  background-position: center;
+text-transform: uppercase;
+}
+.title{
+  font-family: 'Nova Round', cursive;
+    text-align: center;
+  color:#FFFFFF;
+  font-size: 50px;
+  float: center;
+  background-position: center;
+
+}

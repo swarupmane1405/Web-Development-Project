@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+font-family: "Poppins",sans-serif;
+
+
+}
+.navbar{
+  width: 100%;
+  height: 25px;
+  margin: auto;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 500px rgba(0,0,0);
+}
+.logo{
+  width: 150px;
+  cursor: pointer;
+}
+.navlinks{
+  margin-left: 30%;
+
+}
+.navbar ul li{
+  list-style: none;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative;
+
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  shadow:  rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  font-weight: normal;
+font-family: "Poppins",sans-serif;
+
+
+
+}
+
+.navbar ul li::after{
+  content: '';
+  height: 5px;
+  width: 0;
+  background: #FFA500;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+
+}
+.section{
+  width: 100%;
+  min-height: 100vh;
+background-image: url(images/contact.jpg);
+background-size: cover;
+background-position: center;
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+  border: 1px solid rgba(108,122,127,1); /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: rgba(108,122,127,.50);
+  padding: 20px;
+max-width: 40%;
+margin-left: 30%;
+margin-top: 50px;
+text-decoration: none;
+color: #fff;
+
+}
+.container h2{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
